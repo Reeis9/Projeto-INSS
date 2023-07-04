@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1{
+    text-align: center;
+    color:white;
+    font-family:'Open Sans';
+}
+body{
+    background-color:  white;
+    background-image: url(gerid-body-bg.png);
+    margin: 0%;
+}
+button{
+    width: 350px;
+    background-color: #337ab7;
+    color: white;
+    padding: 5px 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:'Open Sans';
+}
+.nav-wrapper{
+    background-color: #337ab7;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 8vh;
+}
+.text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.searchTerm {
+    border: 3px solid #337ab7;
+    border-right: none;
+}
+.search {
+    width: 50%;
+    position: relative;
+}
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ input[type=text]:focus {
+   width: 70%;
+ }
